@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #edebeb;
+
+  font-family: "Poppins", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ======== Main Menu =======  */
+.menu {
+  width: 100%;
+  height: fit-content;
+  padding: 56px 122px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poli-img {
+  width: 200px;
+  height: 180px;
+  filter: brightness(8%);
+}
+
+.moodle-btn {
+  width: 256px;
+  height: 64px;
+
+  border: none;
+
+  background: #d2a538;
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25), 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  color: #f8f8f8;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* ======== Body Intermediário ======= */
+.first-body {
+  width: 100%;
+  /* margin-top: 80px; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.construction-img {
+  width: 540px;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.projeto-infos {
+  width: 650px;
+  height: 540px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px 8px;
+  gap: 32px;
+}
+
+/* Tìtulos */
+.titulo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 72px;
+}
+
+.descricao {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* ======= Main Body ======= */
+.main-body {
+  margin-top: 180px;
+  width: 100%;
+  height: fit-content;
+  background: url("../assets/images/blobs.svg") no-repeat;
+}
+
+.titulo-dois {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  margin: 120px 0 0 90px;
+  padding-top: 60px;
+  color: #444444;
+}
+
+.div-cards {
+  width: 100%;
+  height: fit-content;
+  padding: 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Cards gerais */
+
+.card {
+  width: 560px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border-radius: 32px;
+
+  background-color: #f8f8f8;
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25), 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-card {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.descricao-card {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* Pseudo-footer: dentro do body skrhasjdsnf */
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  color: #444444;
+  margin: 20px auto;
+}

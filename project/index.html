@@ -2,12 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>PEF-3208</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trabalho PEF-3208</title>
   </head>
   <body>
-    <canvas id="bg"> </canvas>
-    <script type="module" src="/main.js"></script>
+    <!-- Header da aplicação -->
+    <header class="menu">
+      <img src="assets/images/poli.png" alt="poli logo" class="poli-img" />
+      <button class="moodle-btn">MOODLE</button>
+    </header>
+
+    <!-- Body Geral da aplicação -->
+    <section class="first-body">
+      <img
+        src="assets/images/blobs-construction.svg"
+        alt=""
+        class="construction-img"
+      />
+
+      <!-- Destalhes da Página -->
+      <div class="projeto-infos">
+        <h2 class="titulo">NOÇÔES DE MEC ESTRUTURAS</h2>
+        <!-- Aqui vai um icon!! -->
+        <img src="assets/images/idea.png" alt="lâmpada-ideia" />
+        <p class="descricao">
+          Desenvolvido como apoio pedagógico para qualquer estudante e professor
+        </p>
+        <p class="descricao">
+          Focada em uma metodologia interativa e dinâmica, sem perder o carátier
+          educacional e instrutivo, bem como o formalismo matemático
+        </p>
+      </div>
+    </section>
+
+    <!-- Estrutura de direcionamento -->
+    <section class="main-body">
+      <h2 class="titulo-dois">
+        NOSSA PROPOSTA DE <br />
+        TRABALHO FINAL
+      </h2>
+
+      <div class="div-cards">
+        <div class="card">
+          <h3 class="titulo-card">BREVE SIMULAÇÂO</h3>
+          <!-- Aqui vem uma imagem -->
+          <a href="pages/simulation.html">
+            <img src="assets/images/simulation.png" alt="simulacao" />
+          </a>
+
+          <p class="descricao-card">
+            Veja uma estrutura tridimensional e interaja com ela
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="titulo-card">BREVE SIMULAÇÂO</h3>
+          <!-- Aqui vem uma imagem -->
+          <img src="assets/images/theory.png" alt="teoria" />
+          <p class="descricao-card">
+            Veja uma estrutura tridimensional e interaja com ela
+          </p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="footer-text">made by Poli - USP, 2022</p>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,4 +1,4 @@
-import "./style.css";
+import "../styles/style.css";
 
 import * as THREE from "three";
 import { createScanner } from "typescript";
@@ -61,6 +61,7 @@ Array(200).fill().forEach(addStar);
 const spaceTexture = new THREE.TextureLoader().load("space.jfif");
 scene.background = spaceTexture;
 
+//Game loop
 function animate() {
   requestAnimationFrame(animate);
 
