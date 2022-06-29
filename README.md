@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="PEF3208" title="#pef3208" src=./pef3208.png" />
+  <img alt="PEF3208" title="#pef3208" src="./pef3208.png" />
 </h1>
 
 <h1 align="center">Projeto de PEF3208</h1>
