@@ -1,8 +1,10 @@
 import "../styles/style.css";
 
 import * as THREE from "three";
-import { createScanner } from "typescript";
+
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+
+// import { createScanner } from "typescript";
 
 const scene = new THREE.Scene();
 
